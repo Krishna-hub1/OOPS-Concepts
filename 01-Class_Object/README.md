@@ -25,4 +25,5 @@ Suppose a company wants to manufacture a car. Before manufacturing the car, the 
 
 This blueprint is similar to a class in programming. A class defines what properties and actions the car should have, but the class itself is not an actual car.
 
-Once the company uses this blueprint to manufacture a car, the actual car is similar to an object. We can manufacture many cars using the same blueprint, and each car can have different values, such as different colors or models.
+Once the company uses this blueprint to manufacture a car, the actual car is similar to an object. 
+We can manufacture many cars using the same blueprint, and each car can have different values, such as different colors or models.
