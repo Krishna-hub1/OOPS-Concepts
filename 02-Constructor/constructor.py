@@ -8,7 +8,7 @@ class Calculator:
         self.y=y
     def addition(self):
         return self.x+self.y
-# Creating an object and passing two values to the constructor.
+# Creating an object and passing two values to the constructor
 obj=Calculator(10,20)
 # Calling the method using the object
 result=obj.addition()
