@@ -14,6 +14,7 @@ farmer2 = Farmer("Krishna", 21)
 farmer1.display()
 farmer2.display()
 """
+Here name and land details are stored inside of an class. so it is called instance variable.
 Here we have created a class Farmer and defined a constructor __init__() that takes two parameters name and land.
 Instance variables are variables that belong to a particular object. They are defined using self inside the constructor. 
 In this example, name and land are instance variables
