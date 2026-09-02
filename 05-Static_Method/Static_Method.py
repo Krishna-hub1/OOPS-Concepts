@@ -3,28 +3,11 @@
 # These process data which is not related to class but process individual data.
 class Student:
 
-    # Class variables
-    institute = "VCube"
-    std_fees = []
-
-    def __init__(self, name, age, m1, m2, fee):
+    def __init__(self, name, age):
         # Instance variables
         self.name = name
         self.age = age
-        self.Physics_Marks = m1
-        self.Math_Marks = m2
-
-        # Adding each student's fee to the class variable
-        Student.std_fees.append(fee)
-
-    # Instance method
-    def info(self):
-        return self.name, self.age
-
-    # Instance method
-    def getaverage(self):
-        return (self.Physics_Marks + self.Math_Marks) // 2
-
+    
     # Static method
     @staticmethod
     def isprime(num):
@@ -35,7 +18,7 @@ class Student:
                 return False
         return True
     
-obj = Student("Balu", 22, 80, 90, 1000)
+obj = Student("Balu", 22)
 # Calling the static method using the class
 is_prime = Student.isprime(17)
 print("Is 17 a prime number?", is_prime)
