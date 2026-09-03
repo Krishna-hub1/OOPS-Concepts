@@ -10,13 +10,16 @@ class Farmer:
     def info(self):
         print(self.__name, "owns", self.__land, "acres of Land.")
     def getsign(self):
-        if self.__land > 50:
-            print(self.__name, "is a big farmer.")
+        if self.__land > 0:
+            print(self.__name, "Has Land.")
         else:
-            print(self.__name, "is a small farmer.")
+            print(self.__name, "Has Shop.")
 farmer1 = Farmer("Narsaih", 100)
+farmer2 = Farmer("Balu", 0)
 farmer1.info()
 farmer1.getsign()
+farmer2.info()
+farmer2.getsign()
 
 # Here, the Farmer class encapsulates the farmer's name and land as private instance variables. 
 # Here we have defined two methods, info() and getsign(), to access and display the farmer's information.
