@@ -6,24 +6,25 @@ understanding Object-Oriented Programming (OOP) in Python.
 
 This repository contains my practice programs for understanding Object-Oriented Programming (OOP) concepts in Python.
 
-Concepts Covered
-Classes and Objects
-Constructors
-Instance Variables and instance methods
-Class Variables and Class Methods
-Encapsulation
-Inheritance
-Single Inheritance
-Multiple Inheritance
-Multilevel Inheritance
-Hierarchical Inheritance
-Polymorphism
-Method Overriding
-Abstraction
-Static Methods
-Operator Overloading
-Property Decorator
-Destructor
+## Concepts Covered
+
+- Classes and Objects
+- Constructors
+- Instance Variables and Instance Methods
+- Class Variables and Class Methods
+- Encapsulation
+- Inheritance
+  - Single Inheritance
+  - Multiple Inheritance
+  - Multilevel Inheritance
+  - Hierarchical Inheritance
+- Polymorphism
+- Method Overriding
+- Abstraction
+- Static Methods
+- Operator Overloading
+- Property Decorator
+- Destructor
 
 Purpose
 
