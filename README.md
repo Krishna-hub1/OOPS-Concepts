@@ -30,7 +30,7 @@ Purpose
 
 I created these examples to understand how OOP concepts are implemented in Python and to strengthen my programming fundamentals for software development and technical interviews.
 
-Technologies
-Python 3
-Git
-GitHub
+- Technologies
+- Python 3
+- Git
+- GitHub
